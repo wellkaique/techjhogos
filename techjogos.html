@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Jogo da Memoria - Sistema Solar</title>
+    <link rel="stylesheet" href="../Jogo Da Memoria/style.css">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    </head>
+  <body>
+    <div class="container">
+
+      <div class="header">
+        <p>TEMA: Sistema Solar. <br><br>REGRA: Ache os pares combinando <br> a imagem com o seu nome.</p>
+        <div class="score">
+          <div id="p1" class="player active">Jogador 1: <span id="result1">0</span></div>
+          <div id="p2" class="player">Jogador 2: <span id="result2">0</span></div>
+        </div>
+        <div class="reload">
+          <div class="reload" onclick="window.location.reload()">
+            <i class="fa fa-repeat"></i>  
+          </div>
+          <a href="../index.html"><i class="fa fa-arrow-left"></i></a>
+        </div>
+        
+      </div>
+      <div class="grid"></div>
+      <div class="progress"></div>
+
+
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
